@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Podo</title>
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="timer">
+
+    <div class="display">
+      <p class="display__type"></p>
+      <h1 class="display__time-left">PODO</h1>
+      <p class="display__end-time">choose your countdown below</p>
+    </div>
+
+
+    <div class="timer__controls">
+      <button data-time="1200" class="timer__button">Work: 20min</button>
+      <button data-time="600" class="timer__button">Break: 10min</button>
+      <button data-time="3600" class="timer__button">Long Break: 1hr</button>
+      <form name="customForm" id="custom">
+        <input type="text" name="minutes" placeholder="How many minutes do you need?">
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
